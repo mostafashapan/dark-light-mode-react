@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Darklightmode from './component/darklightmode';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from './component/Button';
+import Main from './component/main ';
+import { themeContext } from './context/theme-context';
 function App() {
+
+
+
   return (
+   
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+
+  <Main/>
+  
     </div>
+    
   );
 }
 
